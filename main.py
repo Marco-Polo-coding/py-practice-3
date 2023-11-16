@@ -43,8 +43,14 @@ def basic_calculator():
   num2 = float(input("Enter the second number: "))
 
   # implement a if-else statement
-  if num1 and num2: # fix code
+  if operator== '+': # fix code
     result = num1 + num2
+  elif operator== '-': 
+    result = num1 - num2
+  elif operator== '*':
+    result = num1 * num2
+  elif operator== '/': # fix code
+    result = num1 / num2
   else:
     result = "Invalid operator"
 
