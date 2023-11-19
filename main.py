@@ -53,7 +53,7 @@ def basic_calculator():
     result = num1 / num2
   else:
     result = "Invalid operator"
-
+    
   print("Result:", result)
 
 
